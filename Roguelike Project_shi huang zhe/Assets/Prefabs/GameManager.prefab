@@ -1,0 +1,282 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1442792489678314}
+  m_IsPrefabParent: 1
+--- !u!1 &1442792489678314
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4620880082097678}
+  - component: {fileID: 114484418262029344}
+  - component: {fileID: 114375359068089680}
+  - component: {fileID: 82899052306073380}
+  - component: {fileID: 82920778188993522}
+  - component: {fileID: 114376800855250226}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4620880082097678
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1442792489678314}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!82 &82899052306073380
+AudioSource:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1442792489678314}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 2d75080d0851d4613ada1117d91ee417, type: 3}
+  m_PlayOnAwake: 1
+  m_Volume: 0.28
+  m_Pitch: 1
+  Loop: 1
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - serializedVersion: 2
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+--- !u!82 &82920778188993522
+AudioSource:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1442792489678314}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - serializedVersion: 2
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+--- !u!114 &114375359068089680
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1442792489678314}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab03d6e601fa7ca4ebda4866d15b32f4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  level: 1
+  food: 100
+  dieClip: {fileID: 8300000, guid: e2beefeb2273f4efe992adf5b8d67c29, type: 3}
+  isEnd: 0
+  enemylist: []
+--- !u!114 &114376800855250226
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1442792489678314}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0b413b095a31c234c98db1434ffeb064, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  minPitch: 0.9
+  maxpitch: 1.1
+  efxSource: {fileID: 82920778188993522}
+  bgSource: {fileID: 82899052306073380}
+--- !u!114 &114484418262029344
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1442792489678314}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 93c10c6717f5f0a4e89b743d0bd3a061, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  OutWallArray:
+  - {fileID: 1195138536531404, guid: 6eb154958c9398b45a1e7921930c134d, type: 2}
+  - {fileID: 1742498134383654, guid: 7b4c1c61980dc5449ae76f2c643bc5f2, type: 2}
+  - {fileID: 1464254877841180, guid: 1e0db760978fabb4ea6f843606c8e790, type: 2}
+  - {fileID: 1172026498477596, guid: 8df6f8fc18a54d24d9d649c376aaf1c6, type: 2}
+  - {fileID: 1172026498477596, guid: 8df6f8fc18a54d24d9d649c376aaf1c6, type: 2}
+  FloorArray:
+  - {fileID: 1216822042310714, guid: c48e76921154609419abd82aa70316aa, type: 2}
+  - {fileID: 1948747008456302, guid: 5aec4b618ed97e344bf55e712ba2a10e, type: 2}
+  - {fileID: 1628527340099302, guid: 82705068e022cdb41a5dc8b84040812f, type: 2}
+  - {fileID: 1219690651280382, guid: 75410cfea7d602d479f0f15662b7dd0e, type: 2}
+  - {fileID: 1135259985590394, guid: 591c496b8abbca04db29b719dc1f92af, type: 2}
+  - {fileID: 1452603390179514, guid: ef9faedfab01556488153f2181442c65, type: 2}
+  - {fileID: 1799676989188348, guid: 458a1a4757a62f742b5941c4d905e64a, type: 2}
+  - {fileID: 1932324949550426, guid: e7aeb820bd4a3a04a8fe2c988e0930c9, type: 2}
+  WallArray:
+  - {fileID: 1539394020517608, guid: 92c47d1e6eb9cf04987004cde70fa7d2, type: 2}
+  - {fileID: 1287027533853316, guid: b8404b163161d2540ac3f75f47d6f606, type: 2}
+  - {fileID: 1313504707036244, guid: c82fe495282de9a428a2f31a2747a6e5, type: 2}
+  - {fileID: 1423342029304022, guid: 2858dac096f3d7a44b93f10cfe484280, type: 2}
+  - {fileID: 1457707298377588, guid: 1533a2876061c1248b74fafaa48a17e8, type: 2}
+  - {fileID: 1195614295380890, guid: 6e703ecd1c038024e93a7a6f9102707b, type: 2}
+  - {fileID: 1772296858753764, guid: e86117e1e9dad944bbe2041d1f036e67, type: 2}
+  FoodArray:
+  - {fileID: 1779487867336006, guid: 8a3fe9d743964854cada57508872e87a, type: 2}
+  - {fileID: 1313105037931390, guid: 2eb13deb28f7ad64b91f60182af76c60, type: 2}
+  EnemyArray:
+  - {fileID: 1918674765904400, guid: 018f1baa55617c24889cdc2131b18930, type: 2}
+  - {fileID: 1462144552709224, guid: 2e69a304dc02e994a9761bc181313c83, type: 2}
+  Exit: {fileID: 1570104446620078, guid: 7e2d1252f41955c419b25f205b761a13, type: 2}
+  MinWall: 2
+  MaxWall: 8
+  rows: 10
+  cols: 10
